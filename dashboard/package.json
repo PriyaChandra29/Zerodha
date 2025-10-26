@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "122.18.0"
+    "node": "18.x"
   },
   "name": "dashboard",
   "version": "0.1.0",
