@@ -13,13 +13,13 @@ function Signup() {
     };
 
     try {
-      const res = await axios.post("http://localhost:3002/api/signup", user);
+      const res = await axios.post("https://zerodhaclone-ke1d.onrender.com/api/signup", user);
     
       if (res.status === 200) {
         alert("Signup successful!");
 
         // Full browser redirect to dashboard root
-        window.location.href = "http://localhost:3001"; 
+        window.location.href = "https://zerodhaclone2.onrender.com"; 
       }
     } catch (error) {
       console.error("Signup failed:", error);
