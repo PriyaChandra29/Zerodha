@@ -5,7 +5,7 @@ function CreateTicket() {
     <div className="container">
       <div className="row p-5 mt-5 mb-5">
         <h1 className="fs-2">To create a ticket, select a relevant topic</h1>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-circle-plus"></i> Account Opening
           </h5>
@@ -26,7 +26,7 @@ function CreateTicket() {
           <a href="" style={{lineHeight: "2.5"}}>Getting Started</a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-user"></i> Your Zerodha Account
           </h5>
@@ -41,7 +41,7 @@ function CreateTicket() {
           <a href="" style={{lineHeight: "2.5"}}>Transfer and conversion of shares</a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-chart-simple"></i> Your Zerodha Account
           </h5>
@@ -64,7 +64,7 @@ function CreateTicket() {
           <a href="" style={{lineHeight: "2.5"}}>GTT</a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-wallet"></i> Funds
           </h5>
@@ -77,7 +77,7 @@ function CreateTicket() {
           <a href="" style={{lineHeight: "2.5"}}>Adding Bank Account</a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-circle-notch"></i> Console
           </h5>
@@ -94,7 +94,7 @@ function CreateTicket() {
           <a href="" style={{lineHeight: "2.5"}}>Peferral Program</a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="col-lg-4 col-sm-12 p-lg-5 p-3 mt-2 mb-2">
           <h5 className="pb-5">
             <i class="fa-solid fa-coins"></i> Coin
           </h5>

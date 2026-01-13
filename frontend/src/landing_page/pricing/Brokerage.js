@@ -3,8 +3,8 @@ import React from "react";
 function Brokerage() {
   return (
     <div className="container ">
-      <div className="row p-5 mt-5 text-center border-top">
-        <div className="col-8 p-4">
+      <div className="row p-lg-5 p-3 mt-5 text-center border-top">
+        <div className="col-lg-8 col-sm-12 p-4">
           <a href="" >
             <h3 className="fs-5 mb-4">Brokerage calculator</h3>
           </a>
@@ -32,7 +32,7 @@ function Brokerage() {
             </li>
           </ul>
         </div>
-        <div className="col-4 p-4">
+        <div className="col-lg-4 col-sm-12 p-4">
           <a href="">
             <h3 className="fs-5">List of charges</h3>
           </a>
