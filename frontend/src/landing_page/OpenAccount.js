@@ -11,14 +11,12 @@ function OpenAccount() {
           <i class="fa-solid fa-indian-rupee-sign"></i>20 intraday and F&O
           trades.
         </p>
-        <div className='d-flex justify-content-center'>
-             <button
-              className="p-2 btn btn-primary fs-5 mb-5"
-              style={{ width: "20%", minWidth: "200px" }}
-            >
-              Sign up Now
-            </button>
-        </div>
+        <button
+          className="p-2 btn btn-primary fs-5 mb-5"
+          style={{ width: "20%", margin: "0 auto" }}
+        >
+          Sign up Now
+        </button>
       </div>
     </div>
   );

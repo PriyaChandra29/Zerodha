@@ -44,13 +44,6 @@ a{
   margin: 0 150px ;
 }
 
-@media (max-width: 768px) {
-  #supportWrapper {
-    margin: 0 20px;
-    flex-direction: column;
-  }
-}
-
 #supportHero input{
   padding: 20px 50px;
   width: 100%;

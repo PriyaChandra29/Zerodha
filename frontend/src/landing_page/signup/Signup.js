@@ -29,8 +29,8 @@ function Signup() {
 
   return (
     <div className="row mt-3">
-      <h3 className="col-12 col-md-6 offset-md-3 text-center">SignUp on Zerodha</h3>
-      <div className="col-12 col-md-6 offset-md-3">
+      <h3 className="col-6 offset-3">SignUp on Zerodha</h3>
+      <div className="col-6 offset-3">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="username" className="form-label">Account Name</label>
