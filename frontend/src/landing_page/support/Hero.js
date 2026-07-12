@@ -7,8 +7,8 @@ function Hero() {
         <h4>Support Portal</h4>
         <a href="">Track Tickets</a>
       </div>
-      <div className="row p-lg-5 p-3 m-3">
-        <div className="col-lg-6 col-md-12 p-lg-5 p-3">
+      <div className="row p-5 m-3">
+        <div className="col-6 p-5">
           <h1 className="fs-3 mb-4">
             Search for an answer or browser help topics to create a ticket
           </h1>
@@ -21,7 +21,7 @@ function Hero() {
             <a href="">Kite user manual</a> &nbsp; &nbsp;
           </div>
         </div>
-        <div className="col-lg-6 col-md-12 p-lg-5 p-3">
+        <div className="col-6 p-5">
           <h1 className="fs-3">Featured</h1>
           <ol className="p-2">
             <li className="mb-2">
