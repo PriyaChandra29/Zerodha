@@ -842,5 +842,67 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
+/* ===== Tablet & below ===== */
+@media (max-width: 900px) {
+  .dashboard-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .watchlist-container {
+    flex-basis: 100%;
+    width: 100%;
+    height: 40vh;
+  }
+  .content {
+    flex-basis: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .topbar-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .indices-container,
+  .menu-container {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .menus {
+    flex-wrap: wrap;
+  }
+  .menus ul {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+  }
+  .watchlist-number {
+    width: 100%;
+    position: static;
+  }
+}
 
+/* ===== Phones ===== */
+@media (max-width: 600px) {
+  .order-table {
+    overflow-x: auto;
+  }
+  .order-table table {
+    min-width: 600px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+  .data {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nifty, .sensex {
+    flex-basis: 100%;
+  }
+}
 
