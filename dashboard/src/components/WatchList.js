@@ -65,7 +65,9 @@ const WatchList = () => {
         })}
       </ul>
 
-      <DoughnutChart data={data} />
+      <div style={{ height: "200px" }}>
+        <DoughnutChart data={data} />
+      </div>
     </div>
   );
 };
