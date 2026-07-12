@@ -4,7 +4,7 @@ function Stats() {
     return ( 
         <div className='container p-5'>
             <div className='row p-5'>
-                <div className='col-6 p-5'>
+                <div className='col-lg-6 col-sm-12 p-5'>
                     <h1 className=' mb-5'>Trust with confidence</h1>
 
                     <h2 className='fs-4'>Customer-first always</h2>
@@ -20,8 +20,8 @@ function Stats() {
                     <p className='text-muted'>With initiactives like Nudge and Kill Switch, we don't just facilitate transcations, but actively help you do better with your money.</p>
 
                 </div>
-                <div className='col-6 p-5'>
-                    <img src='media/images/ecosystem.png' style={{width:"90%"}}/>
+                <div className='col-lg-6 col-sm-12 p-5'>
+                    <img src='media/images/ecosystem.png' style={{width:"90%"}} className='img-fluid'/>
                     <div className='text-center'>
                         <a href='' className='mx-5' style={{textDecoration:"none"}}>Explore our products <i class="fa-solid fa-arrow-right-long"></i></a>
                         <a href=''style={{textDecoration:"none"}}>Try Kite demo <i class="fa-solid fa-arrow-right-long"></i></a>
