@@ -64,10 +64,7 @@ const WatchList = () => {
           return <WatchListItem stock={stock} key={index} />;
         })}
       </ul>
-
-      <div style={{ height: "200px" }}>
         <DoughnutChart data={data} />
-      </div>
     </div>
   );
 };
